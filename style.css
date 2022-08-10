@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#182449 ,#0f172e);
+    font-family: Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-title{
+    font-size: 1.7rem;
+    background: #016170;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 2rem;
+}
+
+.calc-container{
+    background: #00E0C6;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 550px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.input input::-webkit-inner-spin-button, .inputs input::-webkit-outer-spin-button {
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input label{
+    font-size: 1.5rem;
+}
+
+.input input{
+    border-radius: 1rem;
+    width: 160px;
+    height: 50px;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+}
+
+.input input:focus{
+    outline: none;
+    border: 3px solid #016170;
+}
+
+.btn-calc{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    background: #009393;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    box-shadow: -2px 3px 0 #222;
+}
+
+.btn-calc:hover{
+    background: #008585;
+}
+
+.btn-calc:active{
+    box-shadow: inset -4px 3px 0 #222;
+    font-size: 0.95rem;
+}
+
+.result-IMC-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    font-size: 1.3rem;
+    text-align: justify;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: #016170;
+    color: white;
+}
+
+#result-IMC:first-letter {
+    text-transform: capitalize;
+}
