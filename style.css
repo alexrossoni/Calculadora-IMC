@@ -115,3 +115,10 @@ html {
 #result-IMC:first-letter {
     text-transform: capitalize;
 }
+
+#poweredByAlex{
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+    opacity: 0.5;
+}
